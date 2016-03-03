@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE24C6EA1C6AC64F00EE3F62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE24C6E91C6AC64F00EE3F62 /* AppDelegate.swift */; };
+		EE24C6EC1C6AC64F00EE3F62 /* ProblemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE24C6EB1C6AC64F00EE3F62 /* ProblemViewController.swift */; };
+		EE24C6EE1C6AC64F00EE3F62 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE24C6ED1C6AC64F00EE3F62 /* HistoryViewController.swift */; };
+		EE24C6F11C6AC64F00EE3F62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE24C6EF1C6AC64F00EE3F62 /* Main.storyboard */; };
+		EE24C6F31C6AC64F00EE3F62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE24C6F21C6AC64F00EE3F62 /* Assets.xcassets */; };
+		EE24C6F61C6AC64F00EE3F62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE24C6F41C6AC64F00EE3F62 /* LaunchScreen.storyboard */; };
+		EE24C7011C6AC65000EE3F62 /* Sankati_TabberificTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE24C7001C6AC65000EE3F62 /* Sankati_TabberificTests.swift */; };
+		EE24C70C1C6AC65000EE3F62 /* Sankati_TabberificUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE24C70B1C6AC65000EE3F62 /* Sankati_TabberificUITests.swift */; };
+		EE24C71C1C6AC84600EE3F62 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = EE24C7191C6AC84600EE3F62 /* settings.png */; };
+		EE24C71D1C6AC84600EE3F62 /* problem.png in Resources */ = {isa = PBXBuildFile; fileRef = EE24C71A1C6AC84600EE3F62 /* problem.png */; };
+		EE24C71E1C6AC84600EE3F62 /* history.png in Resources */ = {isa = PBXBuildFile; fileRef = EE24C71B1C6AC84600EE3F62 /* history.png */; };
+		EE5DDC3A1C6AD4E5001244E3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5DDC391C6AD4E5001244E3 /* SettingsViewController.swift */; };
+		EE5DDC3C1C6AD6D4001244E3 /* MathTeacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5DDC3B1C6AD6D4001244E3 /* MathTeacher.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE24C6FD1C6AC65000EE3F62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE24C6DE1C6AC64F00EE3F62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE24C6E51C6AC64F00EE3F62;
+			remoteInfo = Sankati_Tabberific;
+		};
+		EE24C7081C6AC65000EE3F62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE24C6DE1C6AC64F00EE3F62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE24C6E51C6AC64F00EE3F62;
+			remoteInfo = Sankati_Tabberific;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE24C6E61C6AC64F00EE3F62 /* Sankati_Tabberific.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sankati_Tabberific.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE24C6E91C6AC64F00EE3F62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE24C6EB1C6AC64F00EE3F62 /* ProblemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemViewController.swift; sourceTree = "<group>"; };
+		EE24C6ED1C6AC64F00EE3F62 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		EE24C6F01C6AC64F00EE3F62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE24C6F21C6AC64F00EE3F62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE24C6F51C6AC64F00EE3F62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE24C6F71C6AC64F00EE3F62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE24C6FC1C6AC65000EE3F62 /* Sankati_TabberificTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sankati_TabberificTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE24C7001C6AC65000EE3F62 /* Sankati_TabberificTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sankati_TabberificTests.swift; sourceTree = "<group>"; };
+		EE24C7021C6AC65000EE3F62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE24C7071C6AC65000EE3F62 /* Sankati_TabberificUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sankati_TabberificUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE24C70B1C6AC65000EE3F62 /* Sankati_TabberificUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sankati_TabberificUITests.swift; sourceTree = "<group>"; };
+		EE24C70D1C6AC65000EE3F62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE24C7191C6AC84600EE3F62 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		EE24C71A1C6AC84600EE3F62 /* problem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = problem.png; sourceTree = "<group>"; };
+		EE24C71B1C6AC84600EE3F62 /* history.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = history.png; sourceTree = "<group>"; };
+		EE5DDC391C6AD4E5001244E3 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		EE5DDC3B1C6AD6D4001244E3 /* MathTeacher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathTeacher.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE24C6E31C6AC64F00EE3F62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE24C6F91C6AC65000EE3F62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE24C7041C6AC65000EE3F62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE24C6DD1C6AC64F00EE3F62 = {
+			isa = PBXGroup;
+			children = (
+				EE24C6E81C6AC64F00EE3F62 /* Sankati_Tabberific */,
+				EE24C6FF1C6AC65000EE3F62 /* Sankati_TabberificTests */,
+				EE24C70A1C6AC65000EE3F62 /* Sankati_TabberificUITests */,
+				EE24C6E71C6AC64F00EE3F62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE24C6E71C6AC64F00EE3F62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE24C6E61C6AC64F00EE3F62 /* Sankati_Tabberific.app */,
+				EE24C6FC1C6AC65000EE3F62 /* Sankati_TabberificTests.xctest */,
+				EE24C7071C6AC65000EE3F62 /* Sankati_TabberificUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE24C6E81C6AC64F00EE3F62 /* Sankati_Tabberific */ = {
+			isa = PBXGroup;
+			children = (
+				EE24C6E91C6AC64F00EE3F62 /* AppDelegate.swift */,
+				EE24C6EB1C6AC64F00EE3F62 /* ProblemViewController.swift */,
+				EE5DDC3B1C6AD6D4001244E3 /* MathTeacher.swift */,
+				EE5DDC391C6AD4E5001244E3 /* SettingsViewController.swift */,
+				EE24C6ED1C6AC64F00EE3F62 /* HistoryViewController.swift */,
+				EE24C7191C6AC84600EE3F62 /* settings.png */,
+				EE24C71A1C6AC84600EE3F62 /* problem.png */,
+				EE24C71B1C6AC84600EE3F62 /* history.png */,
+				EE24C6EF1C6AC64F00EE3F62 /* Main.storyboard */,
+				EE24C6F21C6AC64F00EE3F62 /* Assets.xcassets */,
+				EE24C6F41C6AC64F00EE3F62 /* LaunchScreen.storyboard */,
+				EE24C6F71C6AC64F00EE3F62 /* Info.plist */,
+			);
+			path = Sankati_Tabberific;
+			sourceTree = "<group>";
+		};
+		EE24C6FF1C6AC65000EE3F62 /* Sankati_TabberificTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE24C7001C6AC65000EE3F62 /* Sankati_TabberificTests.swift */,
+				EE24C7021C6AC65000EE3F62 /* Info.plist */,
+			);
+			path = Sankati_TabberificTests;
+			sourceTree = "<group>";
+		};
+		EE24C70A1C6AC65000EE3F62 /* Sankati_TabberificUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE24C70B1C6AC65000EE3F62 /* Sankati_TabberificUITests.swift */,
+				EE24C70D1C6AC65000EE3F62 /* Info.plist */,
+			);
+			path = Sankati_TabberificUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE24C6E51C6AC64F00EE3F62 /* Sankati_Tabberific */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE24C7101C6AC65000EE3F62 /* Build configuration list for PBXNativeTarget "Sankati_Tabberific" */;
+			buildPhases = (
+				EE24C6E21C6AC64F00EE3F62 /* Sources */,
+				EE24C6E31C6AC64F00EE3F62 /* Frameworks */,
+				EE24C6E41C6AC64F00EE3F62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sankati_Tabberific;
+			productName = Sankati_Tabberific;
+			productReference = EE24C6E61C6AC64F00EE3F62 /* Sankati_Tabberific.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE24C6FB1C6AC65000EE3F62 /* Sankati_TabberificTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE24C7131C6AC65000EE3F62 /* Build configuration list for PBXNativeTarget "Sankati_TabberificTests" */;
+			buildPhases = (
+				EE24C6F81C6AC65000EE3F62 /* Sources */,
+				EE24C6F91C6AC65000EE3F62 /* Frameworks */,
+				EE24C6FA1C6AC65000EE3F62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE24C6FE1C6AC65000EE3F62 /* PBXTargetDependency */,
+			);
+			name = Sankati_TabberificTests;
+			productName = Sankati_TabberificTests;
+			productReference = EE24C6FC1C6AC65000EE3F62 /* Sankati_TabberificTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE24C7061C6AC65000EE3F62 /* Sankati_TabberificUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE24C7161C6AC65000EE3F62 /* Build configuration list for PBXNativeTarget "Sankati_TabberificUITests" */;
+			buildPhases = (
+				EE24C7031C6AC65000EE3F62 /* Sources */,
+				EE24C7041C6AC65000EE3F62 /* Frameworks */,
+				EE24C7051C6AC65000EE3F62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE24C7091C6AC65000EE3F62 /* PBXTargetDependency */,
+			);
+			name = Sankati_TabberificUITests;
+			productName = Sankati_TabberificUITests;
+			productReference = EE24C7071C6AC65000EE3F62 /* Sankati_TabberificUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE24C6DE1C6AC64F00EE3F62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Sankati,Vignan";
+				TargetAttributes = {
+					EE24C6E51C6AC64F00EE3F62 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EE24C6FB1C6AC65000EE3F62 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EE24C6E51C6AC64F00EE3F62;
+					};
+					EE24C7061C6AC65000EE3F62 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EE24C6E51C6AC64F00EE3F62;
+					};
+				};
+			};
+			buildConfigurationList = EE24C6E11C6AC64F00EE3F62 /* Build configuration list for PBXProject "Sankati_Tabberific" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE24C6DD1C6AC64F00EE3F62;
+			productRefGroup = EE24C6E71C6AC64F00EE3F62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE24C6E51C6AC64F00EE3F62 /* Sankati_Tabberific */,
+				EE24C6FB1C6AC65000EE3F62 /* Sankati_TabberificTests */,
+				EE24C7061C6AC65000EE3F62 /* Sankati_TabberificUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE24C6E41C6AC64F00EE3F62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE24C71E1C6AC84600EE3F62 /* history.png in Resources */,
+				EE24C71C1C6AC84600EE3F62 /* settings.png in Resources */,
+				EE24C6F61C6AC64F00EE3F62 /* LaunchScreen.storyboard in Resources */,
+				EE24C6F31C6AC64F00EE3F62 /* Assets.xcassets in Resources */,
+				EE24C71D1C6AC84600EE3F62 /* problem.png in Resources */,
+				EE24C6F11C6AC64F00EE3F62 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE24C6FA1C6AC65000EE3F62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE24C7051C6AC65000EE3F62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE24C6E21C6AC64F00EE3F62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE24C6EE1C6AC64F00EE3F62 /* HistoryViewController.swift in Sources */,
+				EE5DDC3C1C6AD6D4001244E3 /* MathTeacher.swift in Sources */,
+				EE24C6EA1C6AC64F00EE3F62 /* AppDelegate.swift in Sources */,
+				EE24C6EC1C6AC64F00EE3F62 /* ProblemViewController.swift in Sources */,
+				EE5DDC3A1C6AD4E5001244E3 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE24C6F81C6AC65000EE3F62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE24C7011C6AC65000EE3F62 /* Sankati_TabberificTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE24C7031C6AC65000EE3F62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE24C70C1C6AC65000EE3F62 /* Sankati_TabberificUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE24C6FE1C6AC65000EE3F62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE24C6E51C6AC64F00EE3F62 /* Sankati_Tabberific */;
+			targetProxy = EE24C6FD1C6AC65000EE3F62 /* PBXContainerItemProxy */;
+		};
+		EE24C7091C6AC65000EE3F62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE24C6E51C6AC64F00EE3F62 /* Sankati_Tabberific */;
+			targetProxy = EE24C7081C6AC65000EE3F62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE24C6EF1C6AC64F00EE3F62 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE24C6F01C6AC64F00EE3F62 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE24C6F41C6AC64F00EE3F62 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE24C6F51C6AC64F00EE3F62 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE24C70E1C6AC65000EE3F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE24C70F1C6AC65000EE3F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE24C7111C6AC65000EE3F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sankati_Tabberific/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.nwmissouri.Sankati-Tabberific";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE24C7121C6AC65000EE3F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sankati_Tabberific/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.nwmissouri.Sankati-Tabberific";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE24C7141C6AC65000EE3F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Sankati_TabberificTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.nwmissouri.Sankati-TabberificTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sankati_Tabberific.app/Sankati_Tabberific";
+			};
+			name = Debug;
+		};
+		EE24C7151C6AC65000EE3F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Sankati_TabberificTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.nwmissouri.Sankati-TabberificTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sankati_Tabberific.app/Sankati_Tabberific";
+			};
+			name = Release;
+		};
+		EE24C7171C6AC65000EE3F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Sankati_TabberificUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.nwmissouri.Sankati-TabberificUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sankati_Tabberific;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EE24C7181C6AC65000EE3F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Sankati_TabberificUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.nwmissouri.Sankati-TabberificUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sankati_Tabberific;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE24C6E11C6AC64F00EE3F62 /* Build configuration list for PBXProject "Sankati_Tabberific" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE24C70E1C6AC65000EE3F62 /* Debug */,
+				EE24C70F1C6AC65000EE3F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE24C7101C6AC65000EE3F62 /* Build configuration list for PBXNativeTarget "Sankati_Tabberific" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE24C7111C6AC65000EE3F62 /* Debug */,
+				EE24C7121C6AC65000EE3F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE24C7131C6AC65000EE3F62 /* Build configuration list for PBXNativeTarget "Sankati_TabberificTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE24C7141C6AC65000EE3F62 /* Debug */,
+				EE24C7151C6AC65000EE3F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE24C7161C6AC65000EE3F62 /* Build configuration list for PBXNativeTarget "Sankati_TabberificUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE24C7171C6AC65000EE3F62 /* Debug */,
+				EE24C7181C6AC65000EE3F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE24C6DE1C6AC64F00EE3F62 /* Project object */;
+}
