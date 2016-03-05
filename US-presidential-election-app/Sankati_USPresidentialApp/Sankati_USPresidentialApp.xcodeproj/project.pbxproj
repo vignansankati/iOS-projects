@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE253D731C7BDB3E001B0B28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE253D721C7BDB3E001B0B28 /* AppDelegate.swift */; };
+		EE253D751C7BDB3E001B0B28 /* CandidateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE253D741C7BDB3E001B0B28 /* CandidateViewController.swift */; };
+		EE253D781C7BDB3E001B0B28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE253D761C7BDB3E001B0B28 /* Main.storyboard */; };
+		EE253D7A1C7BDB3E001B0B28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE253D791C7BDB3E001B0B28 /* Assets.xcassets */; };
+		EE253D7D1C7BDB3E001B0B28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE253D7B1C7BDB3E001B0B28 /* LaunchScreen.storyboard */; };
+		EE253D881C7BDB3E001B0B28 /* Sankati_USPresidentialAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE253D871C7BDB3E001B0B28 /* Sankati_USPresidentialAppTests.swift */; };
+		EE253D931C7BDB3E001B0B28 /* Sankati_USPresidentialAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE253D921C7BDB3E001B0B28 /* Sankati_USPresidentialAppUITests.swift */; };
+		EE253DA11C7BDBAB001B0B28 /* Candidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE253DA01C7BDBAB001B0B28 /* Candidate.swift */; };
+		EE253DA31C7BDCEE001B0B28 /* Party.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE253DA21C7BDCEE001B0B28 /* Party.swift */; };
+		EE253DAB1C7BE5C3001B0B28 /* bencarson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE253DA51C7BE5C3001B0B28 /* bencarson.jpg */; };
+		EE253DAC1C7BE5C3001B0B28 /* berniesanders.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE253DA61C7BE5C3001B0B28 /* berniesanders.jpg */; };
+		EE253DAD1C7BE5C3001B0B28 /* clinton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE253DA71C7BE5C3001B0B28 /* clinton.jpg */; };
+		EE253DAE1C7BE5C3001B0B28 /* rockydelafuente.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE253DA81C7BE5C3001B0B28 /* rockydelafuente.jpg */; };
+		EE253DAF1C7BE5C3001B0B28 /* TedCruz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE253DA91C7BE5C3001B0B28 /* TedCruz.jpg */; };
+		EE253DB01C7BE5C3001B0B28 /* trump.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE253DAA1C7BE5C3001B0B28 /* trump.jpg */; };
+		EE253DB21C7BE8EC001B0B28 /* PollFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE253DB11C7BE8EC001B0B28 /* PollFactory.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE253D841C7BDB3E001B0B28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE253D671C7BDB3E001B0B28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE253D6E1C7BDB3E001B0B28;
+			remoteInfo = Sankati_USPresidentialApp;
+		};
+		EE253D8F1C7BDB3E001B0B28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE253D671C7BDB3E001B0B28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE253D6E1C7BDB3E001B0B28;
+			remoteInfo = Sankati_USPresidentialApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE253D6F1C7BDB3E001B0B28 /* Sankati_USPresidentialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sankati_USPresidentialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE253D721C7BDB3E001B0B28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE253D741C7BDB3E001B0B28 /* CandidateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateViewController.swift; sourceTree = "<group>"; };
+		EE253D771C7BDB3E001B0B28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE253D791C7BDB3E001B0B28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE253D7C1C7BDB3E001B0B28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE253D7E1C7BDB3E001B0B28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE253D831C7BDB3E001B0B28 /* Sankati_USPresidentialAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sankati_USPresidentialAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE253D871C7BDB3E001B0B28 /* Sankati_USPresidentialAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sankati_USPresidentialAppTests.swift; sourceTree = "<group>"; };
+		EE253D891C7BDB3E001B0B28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE253D8E1C7BDB3E001B0B28 /* Sankati_USPresidentialAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sankati_USPresidentialAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE253D921C7BDB3E001B0B28 /* Sankati_USPresidentialAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sankati_USPresidentialAppUITests.swift; sourceTree = "<group>"; };
+		EE253D941C7BDB3F001B0B28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE253DA01C7BDBAB001B0B28 /* Candidate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Candidate.swift; sourceTree = "<group>"; };
+		EE253DA21C7BDCEE001B0B28 /* Party.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Party.swift; sourceTree = "<group>"; };
+		EE253DA51C7BE5C3001B0B28 /* bencarson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bencarson.jpg; path = Images/bencarson.jpg; sourceTree = "<group>"; };
+		EE253DA61C7BE5C3001B0B28 /* berniesanders.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = berniesanders.jpg; path = Images/berniesanders.jpg; sourceTree = "<group>"; };
+		EE253DA71C7BE5C3001B0B28 /* clinton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = clinton.jpg; path = Images/clinton.jpg; sourceTree = "<group>"; };
+		EE253DA81C7BE5C3001B0B28 /* rockydelafuente.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rockydelafuente.jpg; path = Images/rockydelafuente.jpg; sourceTree = "<group>"; };
+		EE253DA91C7BE5C3001B0B28 /* TedCruz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = TedCruz.jpg; path = Images/TedCruz.jpg; sourceTree = "<group>"; };
+		EE253DAA1C7BE5C3001B0B28 /* trump.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = trump.jpg; path = Images/trump.jpg; sourceTree = "<group>"; };
+		EE253DB11C7BE8EC001B0B28 /* PollFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PollFactory.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE253D6C1C7BDB3E001B0B28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE253D801C7BDB3E001B0B28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE253D8B1C7BDB3E001B0B28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE253D661C7BDB3E001B0B28 = {
+			isa = PBXGroup;
+			children = (
+				EE253D711C7BDB3E001B0B28 /* Sankati_USPresidentialApp */,
+				EE253D861C7BDB3E001B0B28 /* Sankati_USPresidentialAppTests */,
+				EE253D911C7BDB3E001B0B28 /* Sankati_USPresidentialAppUITests */,
+				EE253D701C7BDB3E001B0B28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE253D701C7BDB3E001B0B28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE253D6F1C7BDB3E001B0B28 /* Sankati_USPresidentialApp.app */,
+				EE253D831C7BDB3E001B0B28 /* Sankati_USPresidentialAppTests.xctest */,
+				EE253D8E1C7BDB3E001B0B28 /* Sankati_USPresidentialAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE253D711C7BDB3E001B0B28 /* Sankati_USPresidentialApp */ = {
+			isa = PBXGroup;
+			children = (
+				EE253D721C7BDB3E001B0B28 /* AppDelegate.swift */,
+				EE253D741C7BDB3E001B0B28 /* CandidateViewController.swift */,
+				EE253D761C7BDB3E001B0B28 /* Main.storyboard */,
+				EE253D791C7BDB3E001B0B28 /* Assets.xcassets */,
+				EE253D7B1C7BDB3E001B0B28 /* LaunchScreen.storyboard */,
+				EE253D7E1C7BDB3E001B0B28 /* Info.plist */,
+				EE253DA01C7BDBAB001B0B28 /* Candidate.swift */,
+				EE253DA21C7BDCEE001B0B28 /* Party.swift */,
+				EE253DA51C7BE5C3001B0B28 /* bencarson.jpg */,
+				EE253DA61C7BE5C3001B0B28 /* berniesanders.jpg */,
+				EE253DA71C7BE5C3001B0B28 /* clinton.jpg */,
+				EE253DA81C7BE5C3001B0B28 /* rockydelafuente.jpg */,
+				EE253DA91C7BE5C3001B0B28 /* TedCruz.jpg */,
+				EE253DAA1C7BE5C3001B0B28 /* trump.jpg */,
+				EE253DB11C7BE8EC001B0B28 /* PollFactory.swift */,
+			);
+			path = Sankati_USPresidentialApp;
+			sourceTree = "<group>";
+		};
+		EE253D861C7BDB3E001B0B28 /* Sankati_USPresidentialAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE253D871C7BDB3E001B0B28 /* Sankati_USPresidentialAppTests.swift */,
+				EE253D891C7BDB3E001B0B28 /* Info.plist */,
+			);
+			path = Sankati_USPresidentialAppTests;
+			sourceTree = "<group>";
+		};
+		EE253D911C7BDB3E001B0B28 /* Sankati_USPresidentialAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE253D921C7BDB3E001B0B28 /* Sankati_USPresidentialAppUITests.swift */,
+				EE253D941C7BDB3F001B0B28 /* Info.plist */,
+			);
+			path = Sankati_USPresidentialAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE253D6E1C7BDB3E001B0B28 /* Sankati_USPresidentialApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE253D971C7BDB3F001B0B28 /* Build configuration list for PBXNativeTarget "Sankati_USPresidentialApp" */;
+			buildPhases = (
+				EE253D6B1C7BDB3E001B0B28 /* Sources */,
+				EE253D6C1C7BDB3E001B0B28 /* Frameworks */,
+				EE253D6D1C7BDB3E001B0B28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sankati_USPresidentialApp;
+			productName = Sankati_USPresidentialApp;
+			productReference = EE253D6F1C7BDB3E001B0B28 /* Sankati_USPresidentialApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE253D821C7BDB3E001B0B28 /* Sankati_USPresidentialAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE253D9A1C7BDB3F001B0B28 /* Build configuration list for PBXNativeTarget "Sankati_USPresidentialAppTests" */;
+			buildPhases = (
+				EE253D7F1C7BDB3E001B0B28 /* Sources */,
+				EE253D801C7BDB3E001B0B28 /* Frameworks */,
+				EE253D811C7BDB3E001B0B28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE253D851C7BDB3E001B0B28 /* PBXTargetDependency */,
+			);
+			name = Sankati_USPresidentialAppTests;
+			productName = Sankati_USPresidentialAppTests;
+			productReference = EE253D831C7BDB3E001B0B28 /* Sankati_USPresidentialAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE253D8D1C7BDB3E001B0B28 /* Sankati_USPresidentialAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE253D9D1C7BDB3F001B0B28 /* Build configuration list for PBXNativeTarget "Sankati_USPresidentialAppUITests" */;
+			buildPhases = (
+				EE253D8A1C7BDB3E001B0B28 /* Sources */,
+				EE253D8B1C7BDB3E001B0B28 /* Frameworks */,
+				EE253D8C1C7BDB3E001B0B28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE253D901C7BDB3E001B0B28 /* PBXTargetDependency */,
+			);
+			name = Sankati_USPresidentialAppUITests;
+			productName = Sankati_USPresidentialAppUITests;
+			productReference = EE253D8E1C7BDB3E001B0B28 /* Sankati_USPresidentialAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE253D671C7BDB3E001B0B28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Sankati,Vignan";
+				TargetAttributes = {
+					EE253D6E1C7BDB3E001B0B28 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EE253D821C7BDB3E001B0B28 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EE253D6E1C7BDB3E001B0B28;
+					};
+					EE253D8D1C7BDB3E001B0B28 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EE253D6E1C7BDB3E001B0B28;
+					};
+				};
+			};
+			buildConfigurationList = EE253D6A1C7BDB3E001B0B28 /* Build configuration list for PBXProject "Sankati_USPresidentialApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE253D661C7BDB3E001B0B28;
+			productRefGroup = EE253D701C7BDB3E001B0B28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE253D6E1C7BDB3E001B0B28 /* Sankati_USPresidentialApp */,
+				EE253D821C7BDB3E001B0B28 /* Sankati_USPresidentialAppTests */,
+				EE253D8D1C7BDB3E001B0B28 /* Sankati_USPresidentialAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE253D6D1C7BDB3E001B0B28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE253DAC1C7BE5C3001B0B28 /* berniesanders.jpg in Resources */,
+				EE253D7D1C7BDB3E001B0B28 /* LaunchScreen.storyboard in Resources */,
+				EE253DAE1C7BE5C3001B0B28 /* rockydelafuente.jpg in Resources */,
+				EE253DAF1C7BE5C3001B0B28 /* TedCruz.jpg in Resources */,
+				EE253D7A1C7BDB3E001B0B28 /* Assets.xcassets in Resources */,
+				EE253DAD1C7BE5C3001B0B28 /* clinton.jpg in Resources */,
+				EE253D781C7BDB3E001B0B28 /* Main.storyboard in Resources */,
+				EE253DAB1C7BE5C3001B0B28 /* bencarson.jpg in Resources */,
+				EE253DB01C7BE5C3001B0B28 /* trump.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE253D811C7BDB3E001B0B28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE253D8C1C7BDB3E001B0B28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE253D6B1C7BDB3E001B0B28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE253DA11C7BDBAB001B0B28 /* Candidate.swift in Sources */,
+				EE253D751C7BDB3E001B0B28 /* CandidateViewController.swift in Sources */,
+				EE253DA31C7BDCEE001B0B28 /* Party.swift in Sources */,
+				EE253DB21C7BE8EC001B0B28 /* PollFactory.swift in Sources */,
+				EE253D731C7BDB3E001B0B28 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE253D7F1C7BDB3E001B0B28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE253D881C7BDB3E001B0B28 /* Sankati_USPresidentialAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE253D8A1C7BDB3E001B0B28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE253D931C7BDB3E001B0B28 /* Sankati_USPresidentialAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE253D851C7BDB3E001B0B28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE253D6E1C7BDB3E001B0B28 /* Sankati_USPresidentialApp */;
+			targetProxy = EE253D841C7BDB3E001B0B28 /* PBXContainerItemProxy */;
+		};
+		EE253D901C7BDB3E001B0B28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE253D6E1C7BDB3E001B0B28 /* Sankati_USPresidentialApp */;
+			targetProxy = EE253D8F1C7BDB3E001B0B28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE253D761C7BDB3E001B0B28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE253D771C7BDB3E001B0B28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE253D7B1C7BDB3E001B0B28 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE253D7C1C7BDB3E001B0B28 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE253D951C7BDB3F001B0B28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE253D961C7BDB3F001B0B28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE253D981C7BDB3F001B0B28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sankati_USPresidentialApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.Sankati-USPresidentialApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE253D991C7BDB3F001B0B28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sankati_USPresidentialApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.Sankati-USPresidentialApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE253D9B1C7BDB3F001B0B28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Sankati_USPresidentialAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.Sankati-USPresidentialAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sankati_USPresidentialApp.app/Sankati_USPresidentialApp";
+			};
+			name = Debug;
+		};
+		EE253D9C1C7BDB3F001B0B28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Sankati_USPresidentialAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.Sankati-USPresidentialAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sankati_USPresidentialApp.app/Sankati_USPresidentialApp";
+			};
+			name = Release;
+		};
+		EE253D9E1C7BDB3F001B0B28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Sankati_USPresidentialAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.Sankati-USPresidentialAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sankati_USPresidentialApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EE253D9F1C7BDB3F001B0B28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Sankati_USPresidentialAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.Sankati-USPresidentialAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sankati_USPresidentialApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE253D6A1C7BDB3E001B0B28 /* Build configuration list for PBXProject "Sankati_USPresidentialApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE253D951C7BDB3F001B0B28 /* Debug */,
+				EE253D961C7BDB3F001B0B28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE253D971C7BDB3F001B0B28 /* Build configuration list for PBXNativeTarget "Sankati_USPresidentialApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE253D981C7BDB3F001B0B28 /* Debug */,
+				EE253D991C7BDB3F001B0B28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE253D9A1C7BDB3F001B0B28 /* Build configuration list for PBXNativeTarget "Sankati_USPresidentialAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE253D9B1C7BDB3F001B0B28 /* Debug */,
+				EE253D9C1C7BDB3F001B0B28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE253D9D1C7BDB3F001B0B28 /* Build configuration list for PBXNativeTarget "Sankati_USPresidentialAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE253D9E1C7BDB3F001B0B28 /* Debug */,
+				EE253D9F1C7BDB3F001B0B28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE253D671C7BDB3E001B0B28 /* Project object */;
+}
