@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEB713301C8A09A2005840AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB7132F1C8A09A2005840AA /* AppDelegate.swift */; };
+		EEB713321C8A09A2005840AA /* ProfessorInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB713311C8A09A2005840AA /* ProfessorInfoViewController.swift */; };
+		EEB713351C8A09A2005840AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB713331C8A09A2005840AA /* Main.storyboard */; };
+		EEB713371C8A09A2005840AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB713361C8A09A2005840AA /* Assets.xcassets */; };
+		EEB7133A1C8A09A2005840AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB713381C8A09A2005840AA /* LaunchScreen.storyboard */; };
+		EEB713451C8A09A2005840AA /* Sankati_FacultyFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB713441C8A09A2005840AA /* Sankati_FacultyFinderTests.swift */; };
+		EEB713501C8A09A2005840AA /* Sankati_FacultyFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB7134F1C8A09A2005840AA /* Sankati_FacultyFinderUITests.swift */; };
+		EEB713601C8A09C5005840AA /* Department.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB7135D1C8A09C5005840AA /* Department.swift */; };
+		EEB713611C8A09C5005840AA /* Professor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB7135E1C8A09C5005840AA /* Professor.swift */; };
+		EEB713621C8A09C5005840AA /* University.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB7135F1C8A09C5005840AA /* University.swift */; };
+		EECE6A7F1C90A7680029EC41 /* DepartmentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECE6A7E1C90A7680029EC41 /* DepartmentsTableViewController.swift */; };
+		EECE6A811C90A7800029EC41 /* FacultyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECE6A801C90A7800029EC41 /* FacultyTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEB713411C8A09A2005840AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEB713241C8A09A2005840AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEB7132B1C8A09A2005840AA;
+			remoteInfo = Sankati_FacultyFinder;
+		};
+		EEB7134C1C8A09A2005840AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEB713241C8A09A2005840AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEB7132B1C8A09A2005840AA;
+			remoteInfo = Sankati_FacultyFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EEB7132C1C8A09A2005840AA /* Sankati_FacultyFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sankati_FacultyFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB7132F1C8A09A2005840AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEB713311C8A09A2005840AA /* ProfessorInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessorInfoViewController.swift; sourceTree = "<group>"; };
+		EEB713341C8A09A2005840AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEB713361C8A09A2005840AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEB713391C8A09A2005840AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEB7133B1C8A09A2005840AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEB713401C8A09A2005840AA /* Sankati_FacultyFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sankati_FacultyFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB713441C8A09A2005840AA /* Sankati_FacultyFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sankati_FacultyFinderTests.swift; sourceTree = "<group>"; };
+		EEB713461C8A09A2005840AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEB7134B1C8A09A2005840AA /* Sankati_FacultyFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sankati_FacultyFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB7134F1C8A09A2005840AA /* Sankati_FacultyFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sankati_FacultyFinderUITests.swift; sourceTree = "<group>"; };
+		EEB713511C8A09A2005840AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEB7135D1C8A09C5005840AA /* Department.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Department.swift; sourceTree = "<group>"; };
+		EEB7135E1C8A09C5005840AA /* Professor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Professor.swift; sourceTree = "<group>"; };
+		EEB7135F1C8A09C5005840AA /* University.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = University.swift; sourceTree = "<group>"; };
+		EECE6A7E1C90A7680029EC41 /* DepartmentsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartmentsTableViewController.swift; sourceTree = "<group>"; };
+		EECE6A801C90A7800029EC41 /* FacultyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacultyTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEB713291C8A09A2005840AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB7133D1C8A09A2005840AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB713481C8A09A2005840AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEB713231C8A09A2005840AA = {
+			isa = PBXGroup;
+			children = (
+				EEB7132E1C8A09A2005840AA /* Sankati_FacultyFinder */,
+				EEB713431C8A09A2005840AA /* Sankati_FacultyFinderTests */,
+				EEB7134E1C8A09A2005840AA /* Sankati_FacultyFinderUITests */,
+				EEB7132D1C8A09A2005840AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEB7132D1C8A09A2005840AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEB7132C1C8A09A2005840AA /* Sankati_FacultyFinder.app */,
+				EEB713401C8A09A2005840AA /* Sankati_FacultyFinderTests.xctest */,
+				EEB7134B1C8A09A2005840AA /* Sankati_FacultyFinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEB7132E1C8A09A2005840AA /* Sankati_FacultyFinder */ = {
+			isa = PBXGroup;
+			children = (
+				EEB7135D1C8A09C5005840AA /* Department.swift */,
+				EEB7135E1C8A09C5005840AA /* Professor.swift */,
+				EEB7135F1C8A09C5005840AA /* University.swift */,
+				EEB7132F1C8A09A2005840AA /* AppDelegate.swift */,
+				EEB713311C8A09A2005840AA /* ProfessorInfoViewController.swift */,
+				EEB713331C8A09A2005840AA /* Main.storyboard */,
+				EEB713361C8A09A2005840AA /* Assets.xcassets */,
+				EEB713381C8A09A2005840AA /* LaunchScreen.storyboard */,
+				EEB7133B1C8A09A2005840AA /* Info.plist */,
+				EECE6A7E1C90A7680029EC41 /* DepartmentsTableViewController.swift */,
+				EECE6A801C90A7800029EC41 /* FacultyTableViewController.swift */,
+			);
+			path = Sankati_FacultyFinder;
+			sourceTree = "<group>";
+		};
+		EEB713431C8A09A2005840AA /* Sankati_FacultyFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEB713441C8A09A2005840AA /* Sankati_FacultyFinderTests.swift */,
+				EEB713461C8A09A2005840AA /* Info.plist */,
+			);
+			path = Sankati_FacultyFinderTests;
+			sourceTree = "<group>";
+		};
+		EEB7134E1C8A09A2005840AA /* Sankati_FacultyFinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEB7134F1C8A09A2005840AA /* Sankati_FacultyFinderUITests.swift */,
+				EEB713511C8A09A2005840AA /* Info.plist */,
+			);
+			path = Sankati_FacultyFinderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEB7132B1C8A09A2005840AA /* Sankati_FacultyFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB713541C8A09A2005840AA /* Build configuration list for PBXNativeTarget "Sankati_FacultyFinder" */;
+			buildPhases = (
+				EEB713281C8A09A2005840AA /* Sources */,
+				EEB713291C8A09A2005840AA /* Frameworks */,
+				EEB7132A1C8A09A2005840AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sankati_FacultyFinder;
+			productName = Sankati_FacultyFinder;
+			productReference = EEB7132C1C8A09A2005840AA /* Sankati_FacultyFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEB7133F1C8A09A2005840AA /* Sankati_FacultyFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB713571C8A09A2005840AA /* Build configuration list for PBXNativeTarget "Sankati_FacultyFinderTests" */;
+			buildPhases = (
+				EEB7133C1C8A09A2005840AA /* Sources */,
+				EEB7133D1C8A09A2005840AA /* Frameworks */,
+				EEB7133E1C8A09A2005840AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEB713421C8A09A2005840AA /* PBXTargetDependency */,
+			);
+			name = Sankati_FacultyFinderTests;
+			productName = Sankati_FacultyFinderTests;
+			productReference = EEB713401C8A09A2005840AA /* Sankati_FacultyFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEB7134A1C8A09A2005840AA /* Sankati_FacultyFinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB7135A1C8A09A2005840AA /* Build configuration list for PBXNativeTarget "Sankati_FacultyFinderUITests" */;
+			buildPhases = (
+				EEB713471C8A09A2005840AA /* Sources */,
+				EEB713481C8A09A2005840AA /* Frameworks */,
+				EEB713491C8A09A2005840AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEB7134D1C8A09A2005840AA /* PBXTargetDependency */,
+			);
+			name = Sankati_FacultyFinderUITests;
+			productName = Sankati_FacultyFinderUITests;
+			productReference = EEB7134B1C8A09A2005840AA /* Sankati_FacultyFinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEB713241C8A09A2005840AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Sankati,Vignan";
+				TargetAttributes = {
+					EEB7132B1C8A09A2005840AA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EEB7133F1C8A09A2005840AA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EEB7132B1C8A09A2005840AA;
+					};
+					EEB7134A1C8A09A2005840AA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EEB7132B1C8A09A2005840AA;
+					};
+				};
+			};
+			buildConfigurationList = EEB713271C8A09A2005840AA /* Build configuration list for PBXProject "Sankati_FacultyFinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEB713231C8A09A2005840AA;
+			productRefGroup = EEB7132D1C8A09A2005840AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEB7132B1C8A09A2005840AA /* Sankati_FacultyFinder */,
+				EEB7133F1C8A09A2005840AA /* Sankati_FacultyFinderTests */,
+				EEB7134A1C8A09A2005840AA /* Sankati_FacultyFinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEB7132A1C8A09A2005840AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB7133A1C8A09A2005840AA /* LaunchScreen.storyboard in Resources */,
+				EEB713371C8A09A2005840AA /* Assets.xcassets in Resources */,
+				EEB713351C8A09A2005840AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB7133E1C8A09A2005840AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB713491C8A09A2005840AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEB713281C8A09A2005840AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB713321C8A09A2005840AA /* ProfessorInfoViewController.swift in Sources */,
+				EECE6A811C90A7800029EC41 /* FacultyTableViewController.swift in Sources */,
+				EEB713611C8A09C5005840AA /* Professor.swift in Sources */,
+				EEB713301C8A09A2005840AA /* AppDelegate.swift in Sources */,
+				EECE6A7F1C90A7680029EC41 /* DepartmentsTableViewController.swift in Sources */,
+				EEB713601C8A09C5005840AA /* Department.swift in Sources */,
+				EEB713621C8A09C5005840AA /* University.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB7133C1C8A09A2005840AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB713451C8A09A2005840AA /* Sankati_FacultyFinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB713471C8A09A2005840AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB713501C8A09A2005840AA /* Sankati_FacultyFinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEB713421C8A09A2005840AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEB7132B1C8A09A2005840AA /* Sankati_FacultyFinder */;
+			targetProxy = EEB713411C8A09A2005840AA /* PBXContainerItemProxy */;
+		};
+		EEB7134D1C8A09A2005840AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEB7132B1C8A09A2005840AA /* Sankati_FacultyFinder */;
+			targetProxy = EEB7134C1C8A09A2005840AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEB713331C8A09A2005840AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEB713341C8A09A2005840AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEB713381C8A09A2005840AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEB713391C8A09A2005840AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEB713521C8A09A2005840AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEB713531C8A09A2005840AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEB713551C8A09A2005840AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sankati_FacultyFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.nwmissouri.Sankati-FacultyFinder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEB713561C8A09A2005840AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sankati_FacultyFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.nwmissouri.Sankati-FacultyFinder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EEB713581C8A09A2005840AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Sankati_FacultyFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.nwmissouri.Sankati-FacultyFinderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sankati_FacultyFinder.app/Sankati_FacultyFinder";
+			};
+			name = Debug;
+		};
+		EEB713591C8A09A2005840AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Sankati_FacultyFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.nwmissouri.Sankati-FacultyFinderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sankati_FacultyFinder.app/Sankati_FacultyFinder";
+			};
+			name = Release;
+		};
+		EEB7135B1C8A09A2005840AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Sankati_FacultyFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.nwmissouri.Sankati-FacultyFinderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sankati_FacultyFinder;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EEB7135C1C8A09A2005840AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Sankati_FacultyFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.nwmissouri.Sankati-FacultyFinderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sankati_FacultyFinder;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEB713271C8A09A2005840AA /* Build configuration list for PBXProject "Sankati_FacultyFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB713521C8A09A2005840AA /* Debug */,
+				EEB713531C8A09A2005840AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB713541C8A09A2005840AA /* Build configuration list for PBXNativeTarget "Sankati_FacultyFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB713551C8A09A2005840AA /* Debug */,
+				EEB713561C8A09A2005840AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB713571C8A09A2005840AA /* Build configuration list for PBXNativeTarget "Sankati_FacultyFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB713581C8A09A2005840AA /* Debug */,
+				EEB713591C8A09A2005840AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB7135A1C8A09A2005840AA /* Build configuration list for PBXNativeTarget "Sankati_FacultyFinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB7135B1C8A09A2005840AA /* Debug */,
+				EEB7135C1C8A09A2005840AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEB713241C8A09A2005840AA /* Project object */;
+}
