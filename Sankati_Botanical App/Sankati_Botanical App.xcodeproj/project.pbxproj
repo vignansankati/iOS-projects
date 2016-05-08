@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE5A0EC81CB0675A00B0783F /* RainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5A0EC71CB0675A00B0783F /* RainView.swift */; };
+		EE5A0ECA1CB0678700B0783F /* FernView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5A0EC91CB0678700B0783F /* FernView.swift */; };
+		EE9FF4601CAD81BE00468F0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9FF45F1CAD81BE00468F0E /* AppDelegate.swift */; };
+		EE9FF4621CAD81BE00468F0E /* RainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9FF4611CAD81BE00468F0E /* RainViewController.swift */; };
+		EE9FF4641CAD81BE00468F0E /* FernViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9FF4631CAD81BE00468F0E /* FernViewController.swift */; };
+		EE9FF4671CAD81BE00468F0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE9FF4651CAD81BE00468F0E /* Main.storyboard */; };
+		EE9FF4691CAD81BE00468F0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE9FF4681CAD81BE00468F0E /* Assets.xcassets */; };
+		EE9FF46C1CAD81BE00468F0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE9FF46A1CAD81BE00468F0E /* LaunchScreen.storyboard */; };
+		EE9FF4771CAD81BE00468F0E /* Sankati_Botanical_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9FF4761CAD81BE00468F0E /* Sankati_Botanical_AppTests.swift */; };
+		EE9FF4821CAD81BE00468F0E /* Sankati_Botanical_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9FF4811CAD81BE00468F0E /* Sankati_Botanical_AppUITests.swift */; };
+		EE9FF4911CAD822F00468F0E /* Rain.png in Resources */ = {isa = PBXBuildFile; fileRef = EE9FF48F1CAD822F00468F0E /* Rain.png */; };
+		EE9FF4921CAD822F00468F0E /* plant.png in Resources */ = {isa = PBXBuildFile; fileRef = EE9FF4901CAD822F00468F0E /* plant.png */; };
+		EE9FF4941CAD87B100468F0E /* FernMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9FF4931CAD87B100468F0E /* FernMaker.swift */; };
+		EE9FF4961CAD87D000468F0E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9FF4951CAD87D000468F0E /* SettingsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE9FF4731CAD81BE00468F0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE9FF4541CAD81BE00468F0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE9FF45B1CAD81BE00468F0E;
+			remoteInfo = "Sankati_Botanical App";
+		};
+		EE9FF47E1CAD81BE00468F0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE9FF4541CAD81BE00468F0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE9FF45B1CAD81BE00468F0E;
+			remoteInfo = "Sankati_Botanical App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE5A0EC71CB0675A00B0783F /* RainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RainView.swift; sourceTree = "<group>"; };
+		EE5A0EC91CB0678700B0783F /* FernView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FernView.swift; sourceTree = "<group>"; };
+		EE9FF45C1CAD81BE00468F0E /* Sankati_Botanical App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sankati_Botanical App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9FF45F1CAD81BE00468F0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE9FF4611CAD81BE00468F0E /* RainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainViewController.swift; sourceTree = "<group>"; };
+		EE9FF4631CAD81BE00468F0E /* FernViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FernViewController.swift; sourceTree = "<group>"; };
+		EE9FF4661CAD81BE00468F0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE9FF4681CAD81BE00468F0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE9FF46B1CAD81BE00468F0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE9FF46D1CAD81BE00468F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE9FF4721CAD81BE00468F0E /* Sankati_Botanical AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sankati_Botanical AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9FF4761CAD81BE00468F0E /* Sankati_Botanical_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sankati_Botanical_AppTests.swift; sourceTree = "<group>"; };
+		EE9FF4781CAD81BE00468F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE9FF47D1CAD81BE00468F0E /* Sankati_Botanical AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sankati_Botanical AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9FF4811CAD81BE00468F0E /* Sankati_Botanical_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sankati_Botanical_AppUITests.swift; sourceTree = "<group>"; };
+		EE9FF4831CAD81BE00468F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE9FF48F1CAD822F00468F0E /* Rain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rain.png; sourceTree = "<group>"; };
+		EE9FF4901CAD822F00468F0E /* plant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plant.png; sourceTree = "<group>"; };
+		EE9FF4931CAD87B100468F0E /* FernMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FernMaker.swift; sourceTree = "<group>"; };
+		EE9FF4951CAD87D000468F0E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE9FF4591CAD81BE00468F0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9FF46F1CAD81BE00468F0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9FF47A1CAD81BE00468F0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE9FF4531CAD81BE00468F0E = {
+			isa = PBXGroup;
+			children = (
+				EE9FF45E1CAD81BE00468F0E /* Sankati_Botanical App */,
+				EE9FF4751CAD81BE00468F0E /* Sankati_Botanical AppTests */,
+				EE9FF4801CAD81BE00468F0E /* Sankati_Botanical AppUITests */,
+				EE9FF45D1CAD81BE00468F0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE9FF45D1CAD81BE00468F0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE9FF45C1CAD81BE00468F0E /* Sankati_Botanical App.app */,
+				EE9FF4721CAD81BE00468F0E /* Sankati_Botanical AppTests.xctest */,
+				EE9FF47D1CAD81BE00468F0E /* Sankati_Botanical AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE9FF45E1CAD81BE00468F0E /* Sankati_Botanical App */ = {
+			isa = PBXGroup;
+			children = (
+				EE9FF48F1CAD822F00468F0E /* Rain.png */,
+				EE9FF4901CAD822F00468F0E /* plant.png */,
+				EE9FF45F1CAD81BE00468F0E /* AppDelegate.swift */,
+				EE9FF4611CAD81BE00468F0E /* RainViewController.swift */,
+				EE9FF4631CAD81BE00468F0E /* FernViewController.swift */,
+				EE9FF4651CAD81BE00468F0E /* Main.storyboard */,
+				EE9FF4681CAD81BE00468F0E /* Assets.xcassets */,
+				EE9FF46A1CAD81BE00468F0E /* LaunchScreen.storyboard */,
+				EE9FF46D1CAD81BE00468F0E /* Info.plist */,
+				EE9FF4931CAD87B100468F0E /* FernMaker.swift */,
+				EE9FF4951CAD87D000468F0E /* SettingsViewController.swift */,
+				EE5A0EC71CB0675A00B0783F /* RainView.swift */,
+				EE5A0EC91CB0678700B0783F /* FernView.swift */,
+			);
+			path = "Sankati_Botanical App";
+			sourceTree = "<group>";
+		};
+		EE9FF4751CAD81BE00468F0E /* Sankati_Botanical AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE9FF4761CAD81BE00468F0E /* Sankati_Botanical_AppTests.swift */,
+				EE9FF4781CAD81BE00468F0E /* Info.plist */,
+			);
+			path = "Sankati_Botanical AppTests";
+			sourceTree = "<group>";
+		};
+		EE9FF4801CAD81BE00468F0E /* Sankati_Botanical AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE9FF4811CAD81BE00468F0E /* Sankati_Botanical_AppUITests.swift */,
+				EE9FF4831CAD81BE00468F0E /* Info.plist */,
+			);
+			path = "Sankati_Botanical AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE9FF45B1CAD81BE00468F0E /* Sankati_Botanical App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE9FF4861CAD81BE00468F0E /* Build configuration list for PBXNativeTarget "Sankati_Botanical App" */;
+			buildPhases = (
+				EE9FF4581CAD81BE00468F0E /* Sources */,
+				EE9FF4591CAD81BE00468F0E /* Frameworks */,
+				EE9FF45A1CAD81BE00468F0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sankati_Botanical App";
+			productName = "Sankati_Botanical App";
+			productReference = EE9FF45C1CAD81BE00468F0E /* Sankati_Botanical App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE9FF4711CAD81BE00468F0E /* Sankati_Botanical AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE9FF4891CAD81BE00468F0E /* Build configuration list for PBXNativeTarget "Sankati_Botanical AppTests" */;
+			buildPhases = (
+				EE9FF46E1CAD81BE00468F0E /* Sources */,
+				EE9FF46F1CAD81BE00468F0E /* Frameworks */,
+				EE9FF4701CAD81BE00468F0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE9FF4741CAD81BE00468F0E /* PBXTargetDependency */,
+			);
+			name = "Sankati_Botanical AppTests";
+			productName = "Sankati_Botanical AppTests";
+			productReference = EE9FF4721CAD81BE00468F0E /* Sankati_Botanical AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE9FF47C1CAD81BE00468F0E /* Sankati_Botanical AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE9FF48C1CAD81BE00468F0E /* Build configuration list for PBXNativeTarget "Sankati_Botanical AppUITests" */;
+			buildPhases = (
+				EE9FF4791CAD81BE00468F0E /* Sources */,
+				EE9FF47A1CAD81BE00468F0E /* Frameworks */,
+				EE9FF47B1CAD81BE00468F0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE9FF47F1CAD81BE00468F0E /* PBXTargetDependency */,
+			);
+			name = "Sankati_Botanical AppUITests";
+			productName = "Sankati_Botanical AppUITests";
+			productReference = EE9FF47D1CAD81BE00468F0E /* Sankati_Botanical AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE9FF4541CAD81BE00468F0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Sankati,Vignan";
+				TargetAttributes = {
+					EE9FF45B1CAD81BE00468F0E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EE9FF4711CAD81BE00468F0E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EE9FF45B1CAD81BE00468F0E;
+					};
+					EE9FF47C1CAD81BE00468F0E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EE9FF45B1CAD81BE00468F0E;
+					};
+				};
+			};
+			buildConfigurationList = EE9FF4571CAD81BE00468F0E /* Build configuration list for PBXProject "Sankati_Botanical App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE9FF4531CAD81BE00468F0E;
+			productRefGroup = EE9FF45D1CAD81BE00468F0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE9FF45B1CAD81BE00468F0E /* Sankati_Botanical App */,
+				EE9FF4711CAD81BE00468F0E /* Sankati_Botanical AppTests */,
+				EE9FF47C1CAD81BE00468F0E /* Sankati_Botanical AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE9FF45A1CAD81BE00468F0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9FF46C1CAD81BE00468F0E /* LaunchScreen.storyboard in Resources */,
+				EE9FF4911CAD822F00468F0E /* Rain.png in Resources */,
+				EE9FF4921CAD822F00468F0E /* plant.png in Resources */,
+				EE9FF4691CAD81BE00468F0E /* Assets.xcassets in Resources */,
+				EE9FF4671CAD81BE00468F0E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9FF4701CAD81BE00468F0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9FF47B1CAD81BE00468F0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE9FF4581CAD81BE00468F0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5A0EC81CB0675A00B0783F /* RainView.swift in Sources */,
+				EE9FF4641CAD81BE00468F0E /* FernViewController.swift in Sources */,
+				EE9FF4941CAD87B100468F0E /* FernMaker.swift in Sources */,
+				EE5A0ECA1CB0678700B0783F /* FernView.swift in Sources */,
+				EE9FF4601CAD81BE00468F0E /* AppDelegate.swift in Sources */,
+				EE9FF4961CAD87D000468F0E /* SettingsViewController.swift in Sources */,
+				EE9FF4621CAD81BE00468F0E /* RainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9FF46E1CAD81BE00468F0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9FF4771CAD81BE00468F0E /* Sankati_Botanical_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9FF4791CAD81BE00468F0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9FF4821CAD81BE00468F0E /* Sankati_Botanical_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE9FF4741CAD81BE00468F0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE9FF45B1CAD81BE00468F0E /* Sankati_Botanical App */;
+			targetProxy = EE9FF4731CAD81BE00468F0E /* PBXContainerItemProxy */;
+		};
+		EE9FF47F1CAD81BE00468F0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE9FF45B1CAD81BE00468F0E /* Sankati_Botanical App */;
+			targetProxy = EE9FF47E1CAD81BE00468F0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE9FF4651CAD81BE00468F0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE9FF4661CAD81BE00468F0E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE9FF46A1CAD81BE00468F0E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE9FF46B1CAD81BE00468F0E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE9FF4841CAD81BE00468F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE9FF4851CAD81BE00468F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE9FF4871CAD81BE00468F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sankati_Botanical App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.nwmissouri.Sankati-Botanical-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE9FF4881CAD81BE00468F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sankati_Botanical App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.nwmissouri.Sankati-Botanical-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE9FF48A1CAD81BE00468F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Sankati_Botanical AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.nwmissouri.Sankati-Botanical-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sankati_Botanical App.app/Sankati_Botanical App";
+			};
+			name = Debug;
+		};
+		EE9FF48B1CAD81BE00468F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Sankati_Botanical AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.nwmissouri.Sankati-Botanical-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sankati_Botanical App.app/Sankati_Botanical App";
+			};
+			name = Release;
+		};
+		EE9FF48D1CAD81BE00468F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Sankati_Botanical AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.nwmissouri.Sankati-Botanical-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Sankati_Botanical App";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EE9FF48E1CAD81BE00468F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Sankati_Botanical AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.nwmissouri.Sankati-Botanical-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Sankati_Botanical App";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE9FF4571CAD81BE00468F0E /* Build configuration list for PBXProject "Sankati_Botanical App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE9FF4841CAD81BE00468F0E /* Debug */,
+				EE9FF4851CAD81BE00468F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE9FF4861CAD81BE00468F0E /* Build configuration list for PBXNativeTarget "Sankati_Botanical App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE9FF4871CAD81BE00468F0E /* Debug */,
+				EE9FF4881CAD81BE00468F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE9FF4891CAD81BE00468F0E /* Build configuration list for PBXNativeTarget "Sankati_Botanical AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE9FF48A1CAD81BE00468F0E /* Debug */,
+				EE9FF48B1CAD81BE00468F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE9FF48C1CAD81BE00468F0E /* Build configuration list for PBXNativeTarget "Sankati_Botanical AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE9FF48D1CAD81BE00468F0E /* Debug */,
+				EE9FF48E1CAD81BE00468F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE9FF4541CAD81BE00468F0E /* Project object */;
+}
